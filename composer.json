@@ -1,0 +1,21 @@
+{
+    "name": "myvariety/wisp-sdk",
+    "description": "Wisp SDK",
+    "license": "proprietary",
+    "type": "sdk",
+    "require": {
+        "php": ">=5.4.0",
+        "blesta/composer-installer": "~1.0"
+    },
+    "authors": [
+        {
+            "name": "MyVariety LLC",
+            "email": "support@myvariety.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyVariety\\WispSDK\\":"src/"
+        }
+    }
+}
