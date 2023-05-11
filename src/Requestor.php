@@ -91,7 +91,7 @@ class Requestor
         $headers = [];
         $headers[] = 'Authorization: Bearer ' . $this->apiKey;
         $headers[] = 'Content-Type: application/json';
-        $headers[] = 'Accept: Application/vnd.pterodactyl.v1+json';
+        $headers[] = 'Accept: Application/vnd.wisp.v1+json';
         curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 
         $this->lastRequest = ['content' => $body, 'headers' => $headers];
